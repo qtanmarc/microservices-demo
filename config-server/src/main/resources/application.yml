@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/isilona/microservices/
+          uri: https://github.com/qtanmarc/microservices-demo/
           search-paths:
             - "ms-config-properties/{application}/{profile}"
             - "ms-config-properties/global/{profile}"
