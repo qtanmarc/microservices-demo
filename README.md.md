@@ -18,9 +18,11 @@ Following components will be part of the system:
 ## Start the service registry (Eureka)
 To run the Eureka service with Maven, run the following command in the root folder.
 ```
-<![endif]-->
-
 ./mvnw spring-boot:run -pl eureka-service
+```
+Check Eureka running on:
+```
+http://localhost:8761/
 ```
 
 ## Switch to another file
@@ -154,5 +156,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzU3Mzc4MV19
+eyJoaXN0b3J5IjpbMTgzMzM0NzUzOV19
 -->
