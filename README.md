@@ -35,10 +35,11 @@ Check Config server will return some of the configurations we have in ms-config-
 http://localhost:8888/ms-service/dev
 ```
 ## Apache Kafka + Zookeeper
-To start the Kafka broker + Zookeeper
+To start the Kafka broker + Zookeeper, use docker-compose
 ```
 docker-compose up -d
 ```
+To test Kafka 
 
 ## Delete a file
 
@@ -163,7 +164,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTkzOTUzNiwtMTgzOTAzNjcwNCw1NT
+eyJoaXN0b3J5IjpbMjA0NDY4ODY4MSwtMTgzOTAzNjcwNCw1NT
 k3NjI1MDYsMjE0Mzk2MTg5OSwtMTk0MDUyNDUwMywxODMzMzQ3
 NTM5LDkwNzUzNDYzNywtODkzMTczNjkwLC0yMTcwODA4NzAsLT
 MzMjQ1NTM2M119
