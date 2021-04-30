@@ -39,15 +39,11 @@ To start the Kafka broker + Zookeeper, use docker-compose
 ```
 docker-compose up -d
 ```
-To test Kafka 
+To test Kafka, use the project "kafka-example" to demonstrate the publishing and consuming messages from Kafka.
+```
+mvnw spring-boot:run -pl kafka-example
+```
 
-## Delete a file
-
-You can delete the curre **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
 # Synchronization
@@ -164,8 +160,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDY4ODY4MSwtMTgzOTAzNjcwNCw1NT
-k3NjI1MDYsMjE0Mzk2MTg5OSwtMTk0MDUyNDUwMywxODMzMzQ3
-NTM5LDkwNzUzNDYzNywtODkzMTczNjkwLC0yMTcwODA4NzAsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE4OTU5ODE1MDEsLTE4MzkwMzY3MDQsNT
+U5NzYyNTA2LDIxNDM5NjE4OTksLTE5NDA1MjQ1MDMsMTgzMzM0
+NzUzOSw5MDc1MzQ2MzcsLTg5MzE3MzY5MCwtMjE3MDgwODcwLC
+0zMzI0NTUzNjNdfQ==
 -->
