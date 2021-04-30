@@ -15,6 +15,7 @@ Following components will be part of the system:
  4. **Email Service**
  - On “USER_REGISTERED” message received the Email Service will send a confirmation email to the new user.
  
+ ![enter image description here](https://ibb.co/d0HWnXp)
  
 ## Create files and folders
 
@@ -151,6 +152,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzE3MzY5MCwtMjE3MDgwODcwLC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNz
+A4MDg3MCwtMzMyNDU1MzYzXX0=
 -->
