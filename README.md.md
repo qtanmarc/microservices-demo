@@ -18,7 +18,7 @@ Following components will be part of the system:
 ## Start the service registry (Eureka)
 To run the Eureka service with Maven, run the following command in the root folder.
 ```
-./mvnw spring-boot:run -pl eureka-server
+mvnw spring-boot:run -pl eureka-server
 ```
 Check Eureka running on:
 ```
@@ -26,9 +26,9 @@ http://localhost:8761/
 ```
 
 ## Start the Config Server (Spring Cloud Config)
-Run the following command in the root folder.
+To start the config server, run the following command in the root folder.
 ```
-./mvnw spring-boot:run -pl eureka-server
+mvnw spring-boot:run -pl config-server
 ```
 ## Rename a file
 
@@ -158,6 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODU4MTY4MCwyMTQzOTYxODk5LDE4Mz
-MzNDc1MzldfQ==
+eyJoaXN0b3J5IjpbNTU5NzYyNTA2LDIxNDM5NjE4OTksMTgzMz
+M0NzUzOV19
 -->
