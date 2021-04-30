@@ -34,10 +34,11 @@ Check Config server will return some of the configurations we have in ms-config-
 ```
 http://localhost:8888/ms-service/dev
 ```
-## Rename a file
+## Apache Kafka + Zookeeper
 
-You can rename the current file by clicking the filesic ret ea
-T run the uebar or by clicking the flling on in the file explorer.
+```
+docker-compose up -d
+```
 
 ## Delete a file
 
@@ -162,6 +163,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MzQxMTE0LDU1OTc2MjUwNiwyMTQzOT
-YxODk5LDE4MzMzNDc1MzldfQ==
+eyJoaXN0b3J5IjpbLTE4MzkwMzY3MDQsNTU5NzYyNTA2LDIxND
+M5NjE4OTksMTgzMzM0NzUzOV19
 -->
