@@ -27,15 +27,16 @@ http://localhost:8761/
 
 ## Switch to another file
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the treeroot folder.
 
 ## Rename a file
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+You can rename the current file by clicking the filesic ret ea
+T run the uebar or by clicking the flling on in the file explorer.
 
 ## Delete a file
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+You can delete the curre **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
 ## Export a file
 
@@ -156,6 +157,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzM0NzUzOSw5MDc1MzQ2MzcsLTg5Mz
-E3MzY5MCwtMjE3MDgwODcwLC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDA1MjQ1MDMsMTgzMzM0NzUzOSw5MD
+c1MzQ2MzcsLTg5MzE3MzY5MCwtMjE3MDgwODcwLC0zMzI0NTUz
+NjNdfQ==
 -->
