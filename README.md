@@ -8,11 +8,11 @@ Following components will be part of the system:
 
  1. **Service registry (Eureka)**: where all services will register themselves
  
- 3. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
+ 2. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
  -  Config server will keep configuration files in GIT repository
- 4. **User service**: using this one the new users will register
+ 3. **User service**: using this one the new users will register
  - On  every new registration, the User Service will send a message “USER_REGISTERED” to **the message broker (Kafka)**
- 5. **Email Service**
+ 4. **Email Service**
  - On “USER_REGISTERED” message received the Email Service will send a confirmation email to the new user.
  
 ## Create files and folders
@@ -150,5 +150,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTAxNDMzMSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTIxNzA4MDg3MCwtMzMyNDU1MzYzXX0=
 -->
