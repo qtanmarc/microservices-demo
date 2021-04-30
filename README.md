@@ -20,6 +20,10 @@ To run the Eureka service with Maven, run the following command in the root fold
 ```
 ./mvnw spring-boot:run -pl eureka-service
 ```
+Check Eureka running on:
+```
+http://localhost:8761/
+```
 
 ## Switch to another file
 
@@ -152,6 +156,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODUyMTczMiw5MDc1MzQ2MzcsLTg5Mz
+eyJoaXN0b3J5IjpbMTgzMzM0NzUzOSw5MDc1MzQ2MzcsLTg5Mz
 E3MzY5MCwtMjE3MDgwODcwLC0zMzI0NTUzNjNdfQ==
 -->
