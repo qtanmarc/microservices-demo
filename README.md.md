@@ -15,9 +15,9 @@ Following components will be part of the system:
  4. **Email Service**
  - On “USER_REGISTERED” message received the Email Service will send a confirmation email to the new user.
   
-## Create files and folders
+## Start the service registry (Eureka)
+To run the Eureka service with Maven, run the following command in the root folder.
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
 ## Switch to another file
 
@@ -150,5 +150,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjY0MjkwNF19
+eyJoaXN0b3J5IjpbMTczNDg0NDIxXX0=
 -->
