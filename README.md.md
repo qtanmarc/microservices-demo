@@ -44,6 +44,11 @@ To test Kafka, use the project "kafka-example" to demonstrate the publishing and
 mvnw spring-boot:run -pl kafka-example
 ```
 
+## Delete a file
+
+You can delete the curre **Remove** button ino tart the f broer  oeepr
+
+ocercoose up d
 
 
 # Synchronization
@@ -160,6 +165,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU5ODE1MDEsLTE4MzkwMzY3MDQsNT
-U5NzYyNTA2LDIxNDM5NjE4OTksMTgzMzM0NzUzOV19
+eyJoaXN0b3J5IjpbLTQ0NjIxNDk1MywtMTg5NTk4MTUwMSwtMT
+gzOTAzNjcwNCw1NTk3NjI1MDYsMjE0Mzk2MTg5OSwxODMzMzQ3
+NTM5XX0=
 -->
