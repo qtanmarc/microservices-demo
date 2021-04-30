@@ -30,6 +30,10 @@ To start the config server, run the following command in the root folder.
 ```
 mvnw spring-boot:run -pl config-server
 ```
+Check Config server will return some of the configurations we have in ms-config-properties folder:
+```
+http://localhost:8888/ms-service/dev
+```
 ## Rename a file
 
 You can rename the current file by clicking the filesic ret ea
@@ -158,6 +162,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5NzYyNTA2LDIxNDM5NjE4OTksMTgzMz
-M0NzUzOV19
+eyJoaXN0b3J5IjpbMzE1MzQxMTE0LDU1OTc2MjUwNiwyMTQzOT
+YxODk5LDE4MzMzNDc1MzldfQ==
 -->
