@@ -7,9 +7,10 @@ The demo project is to build a registration system that will send a confirmation
 
 Following components will be part of the system:
 
- 1. **Service registry (Eureka)**: we
- 2. List item
-
+ 1. **Service registry (Eureka)**: where all services will register themselves
+ 2. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
+ 3.
+ 4. 
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -145,5 +146,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTc1MjIzMSwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMTcxMDg3NTg3MSwtMzMyNDU1MzYzXX0=
 -->
