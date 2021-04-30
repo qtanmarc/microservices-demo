@@ -7,7 +7,7 @@ The demo project is to build a registration system that will send a confirmation
 Following components will be part of the system:
 
  1. **Service registry (Eureka)**: where all services will register themselves
- 2.
+ 
  3. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
  -  Config server will keep configuration files in GIT repository
  4. **User service**: using this one the new users will register
@@ -150,5 +150,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUwMTkxNDUsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTA0MTAxNDMzMSwtMzMyNDU1MzYzXX0=
 -->
