@@ -1,11 +1,14 @@
 # Microservices-demo
 
-The demo project is to build a registration system that will send a confirmation mail after new user is register
+The demo project is to build a registration system that will send a confirmation mail after new user is registered.
 
 
-# Files
+# Components
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+Following components will be part of the system:
+
+ 1. **Service registry (Eureka)**: we
+ 2. List item
 
 ## Create files and folders
 
@@ -142,5 +145,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4OTc4MCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTM3OTc1MjIzMSwtMzMyNDU1MzYzXX0=
 -->
