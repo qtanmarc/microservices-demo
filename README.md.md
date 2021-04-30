@@ -25,10 +25,11 @@ Check Eureka running on:
 http://localhost:8761/
 ```
 
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the treeroot folder.
-
+## Start the Config Server (Spring Cloud Config)
+Run the following command in the root folder.
+```
+./mvnw spring-boot:run -pl eureka-server
+```
 ## Rename a file
 
 You can rename the current file by clicking the filesic ret ea
@@ -157,5 +158,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzk2MTg5OSwxODMzMzQ3NTM5XX0=
+eyJoaXN0b3J5IjpbLTY4ODU4MTY4MCwyMTQzOTYxODk5LDE4Mz
+MzNDc1MzldfQ==
 -->
