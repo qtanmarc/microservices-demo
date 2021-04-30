@@ -3,7 +3,7 @@
 The demo project is to build a registration system that will send a confirmation mail after new user is registered.
 
 
-# Components
+## Components
 Following components will be part of the system:
 
  1. **Service registry (Eureka)**: where all services will register themselves
@@ -17,7 +17,9 @@ Following components will be part of the system:
   
 ## Start the service registry (Eureka)
 To run the Eureka service with Maven, run the following command in the root folder.
-
+```
+./mvnw spring-boot:run -pl eureka-service
+```
 
 ## Switch to another file
 
@@ -150,6 +152,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDg0NDIxLDkwNzUzNDYzNywtODkzMT
-czNjkwLC0yMTcwODA4NzAsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjAyODUyMTczMiw5MDc1MzQ2MzcsLTg5Mz
+E3MzY5MCwtMjE3MDgwODcwLC0zMzI0NTUzNjNdfQ==
 -->
