@@ -12,6 +12,7 @@
         <module>eureka-server</module>
 		<module>config-server</module>
 		<module>kafka-example</module>
+		<module>ms-user</module>
     </modules>
 
 </project>
