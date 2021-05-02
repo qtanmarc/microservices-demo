@@ -43,6 +43,10 @@ To test Kafka, use the project "kafka-example" to demonstrate the publishing and
 ```
 mvnw spring-boot:run -pl kafka-example
 ```
+To Stop the Kafka broker + Zookeeper,
+```
+docker stop <container-id>
+```
 
 ## Delete a file
 
@@ -165,7 +169,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjIxNDk1MywtMTg5NTk4MTUwMSwtMT
-gzOTAzNjcwNCw1NTk3NjI1MDYsMjE0Mzk2MTg5OSwxODMzMzQ3
-NTM5XX0=
+eyJoaXN0b3J5IjpbMTkyNTQ3NjYzOCwtNDQ2MjE0OTUzLC0xOD
+k1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUwNiwyMTQzOTYx
+ODk5LDE4MzMzNDc1MzldfQ==
 -->
