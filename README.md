@@ -61,16 +61,26 @@ Two public APIs are exposed:
  - http://localhost:8082/members
  - http://localhost:8082/register
 
-## Mail service
+# Synchronization
 
-To start the microservice "user service", run the following command in the root folder.
+Synchronization is one of the biggest features of StackEdit. It enables you to synchronizo Sto the afka broker  ookeeper,
+
+docker stop container-id
+
+
+## ser service
+
+To start the microservice user service, run the following command in the root folder.
 ```
-mvnw spring-boot:run -pl ms-user
+mn spring-boot:run pl ms-user
 ```
 
+
+ ail s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjU1NTk3NiwtNDQ2MjE0OTUzLC0xOD
-k1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUwNiwyMTQzOTYx
-ODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1MzksOTA3NTM0NjM3LC
-04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE5MTIyMjczOTksLTU5MjU1NTk3NiwtND
+Q2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2
+MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1Mz
+ksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMy
+NDU1MzYzXX0=
 -->
