@@ -36,6 +36,7 @@ http://localhost:8888/ms-service/dev
 ```
 There are two modes to fetch the configs: either **native** or **git**
 **native** that we can change in *application.yml.*
+
 ## Apache Kafka + Zookeeper
 To start the Kafka broker + Zookeeper, use docker-compose
 ```
@@ -78,9 +79,9 @@ mn spring-boot:run pl ms-user
 
  ail s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIyMjczOTksLTU5MjU1NTk3NiwtND
-Q2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2
-MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1Mz
-ksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMy
-NDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE0NDI0MjA2NjEsLTE5MTIyMjczOTksLT
+Q0NjIxNDk1MywtMTg5NTk4MTUwMSwtMTgzOTAzNjcwNCw1NTk3
+NjI1MDYsMjE0Mzk2MTg5OSwtMTk0MDUyNDUwMywxODMzMzQ3NT
+M5LDkwNzUzNDYzNywtODkzMTczNjkwLC0yMTcwODA4NzAsLTMz
+MjQ1NTM2M119
 -->
