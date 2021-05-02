@@ -10,8 +10,10 @@ Following components will be part of the system:
  
  2. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
  -  Config server will keep configuration files in GIT repository
+ 
  3. **User service**: using this one the new users will register
  - On  every new registration, the User Service will send a message “USER_REGISTERED” to **the message broker (Kafka)**
+ 
  4. **Email Service**
  - On “USER_REGISTERED” message received the Email Service will send a confirmation email to the new user.
   
@@ -62,26 +64,22 @@ Two public APIs are exposed:
  - http://localhost:8082/members
  - http://localhost:8082/register
 
-# Synchronization
+## Mail service
 
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronizo Sto the afka broker  ookeeper,
-
-docker stop container-id
-
-
-## ser service
-
-To start the microservice user service, run the following command in the root folder.
+To start the microservice "mail service", run the following command in the root folder.
 ```
-mn spring-boot:run pl ms-user
+mvnw spring-boot:run -pl ms-mail
 ```
 
-
- ail s
+## Gateway (Zuul
+To start the microservice "mail service", run the following command in the root folder.
+```
+mvnw spring-boot:run -pl ms-mail
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI0MjA2NjEsLTE5MTIyMjczOTksLT
-Q0NjIxNDk1MywtMTg5NTk4MTUwMSwtMTgzOTAzNjcwNCw1NTk3
-NjI1MDYsMjE0Mzk2MTg5OSwtMTk0MDUyNDUwMywxODMzMzQ3NT
-M5LDkwNzUzNDYzNywtODkzMTczNjkwLC0yMTcwODA4NzAsLTMz
-MjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTQyNjMyMDg2NywtMTkxMjIyNzM5OSwtND
+Q2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2
+MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1Mz
+ksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMy
+NDU1MzYzXX0=
 -->
