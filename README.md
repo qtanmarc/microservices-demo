@@ -71,13 +71,13 @@ To start the microservice "mail service", run the following command in the root 
 mvnw spring-boot:run -pl ms-mail
 ```
 
-## Gateway (Zuul
-To start the microservice "mail service", run the following command in the root folder.
+## Gateway (Zuul)
+To start the gateway Zuul run the following command in the root folder. Any request to 8765:/api/user will be now redirected to the ms-user micro-service
 ```
-mvnw spring-boot:run -pl ms-mail
+mvnw spring-boot:run -pl ms-gateway
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjMyMDg2NywtMTkxMjIyNzM5OSwtND
+eyJoaXN0b3J5IjpbLTE5NzIxMzU2NywtMTkxMjIyNzM5OSwtND
 Q2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2
 MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1Mz
 ksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMy
