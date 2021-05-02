@@ -10,8 +10,10 @@ Following components will be part of the system:
  
  2. **Config server (Spring Cloud config)**: where all services will take their configuration from. 
  -  Config server will keep configuration files in GIT repository
+ 
  3. **User service**: using this one the new users will register
  - On  every new registration, the User Service will send a message “USER_REGISTERED” to **the message broker (Kafka)**
+ 
  4. **Email Service**
  - On “USER_REGISTERED” message received the Email Service will send a confirmation email to the new user.
   
@@ -64,13 +66,18 @@ Two public APIs are exposed:
 
 ## Mail service
 
-To start the microservice "user service", run the following command in the root folder.
+To start the microservice "mail service", run the following command in the root folder.
 ```
-mvnw spring-boot:run -pl ms-user
+mvnw spring-boot:run -pl ms-mail
 ```
 
+## Gateway 
+To start the microservice "mail service", run the following command in the root folder.
+```
+mvnw spring-boot:run -pl ms-mail
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzI3MTA5NCwtNDQ2MjE0OTUzLC0xOD
-k1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUwNiwyMTQzOTYx
-ODk5LDE4MzMzNDc1MzldfQ==
+eyJoaXN0b3J5IjpbNDU1NDg5NjIxLC00NDYyMTQ5NTMsLTE4OT
+U5ODE1MDEsLTE4MzkwMzY3MDQsNTU5NzYyNTA2LDIxNDM5NjE4
+OTksMTgzMzM0NzUzOV19
 -->
