@@ -13,6 +13,7 @@
 		<module>config-server</module>
 		<module>kafka-example</module>
 		<module>ms-user</module>
+        <module>ms-mail</module>
     </modules>
 
 </project>
