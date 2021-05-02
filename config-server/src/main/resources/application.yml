@@ -3,6 +3,17 @@ spring:
     active: native
 ---
 spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            file:///C:/Users/taq/Projects/microservices-demo/ms-config-properties/{application}/{profile},
+            file:///C:/Users/taq/Projects/microservices-demo/ms-config-properties/global/{profile}
+---
+spring:
+  profiles: git
   cloud:
     config:
       server:
