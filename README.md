@@ -48,11 +48,12 @@ To Stop the Kafka broker + Zookeeper,
 docker stop <container-id>
 ```
 
-## Delete a file
+## User service
 
-You can delete the curre **Remove** button ino tart the f broer  oeepr
-
-ocercoose up d
+To start the microservice "user service", run the following command in the root folder.
+```
+mvnw spring-boot:run -pl ms-user
+```
 
 
 # Synchronization
@@ -169,7 +170,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTQ3NjYzOCwtNDQ2MjE0OTUzLC0xOD
+eyJoaXN0b3J5IjpbMTQyNzQ2MzM1MSwtNDQ2MjE0OTUzLC0xOD
 k1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUwNiwyMTQzOTYx
 ODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1MzksOTA3NTM0NjM3LC
 04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMyNDU1MzYzXX0=
