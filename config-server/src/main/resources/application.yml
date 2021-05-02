@@ -1,9 +1,11 @@
 spring:
   profiles:
-    active: native
+    active: git
 ---
 spring:
-  profiles: native
+  config:
+    activate:
+      on-profile: native
   cloud:
     config:
       server:
@@ -13,12 +15,15 @@ spring:
             file:///C:/Users/taq/Projects/microservices-demo/ms-config-properties/global/{profile}
 ---
 spring:
-  profiles: git
+  config:
+    activate:
+      on-profile: git
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/qtanmarc/microservices-demo/
+          uri: https://github.com/qtanmarc/microservices-demo
           search-paths:
             - "ms-config-properties/{application}/{profile}"
             - "ms-config-properties/global/{profile}"
+          default-label: main
