@@ -72,14 +72,14 @@ mvnw spring-boot:run -pl ms-mail
 ```
 
 ## Gateway (Zuul)
-To start the gateway Zuul run the following command in the root folder. Any request to 8765:/api/user will be now redirected to the ms-user micro-service
+To start the gateway Zuul run the following command in the root folder. Any request to **8765:/api/user** will be now redirected to the ms-user micro-service
 ```
 mvnw spring-boot:run -pl ms-gateway
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIxMzU2NywtMTkxMjIyNzM5OSwtND
-Q2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2
-MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLDE4MzMzNDc1Mz
-ksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4MDg3MCwtMzMy
-NDU1MzYzXX0=
+eyJoaXN0b3J5IjpbOTkwMzA5ODI1LC0xOTEyMjI3Mzk5LC00ND
+YyMTQ5NTMsLTE4OTU5ODE1MDEsLTE4MzkwMzY3MDQsNTU5NzYy
+NTA2LDIxNDM5NjE4OTksLTE5NDA1MjQ1MDMsMTgzMzM0NzUzOS
+w5MDc1MzQ2MzcsLTg5MzE3MzY5MCwtMjE3MDgwODcwLC0zMzI0
+NTUzNjNdfQ==
 -->
