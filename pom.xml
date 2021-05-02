@@ -14,6 +14,7 @@
 		<module>kafka-example</module>
 		<module>ms-user</module>
         <module>ms-mail</module>
+        <module>ms-gateway</module>
     </modules>
 
 </project>

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ms-gateway
+---
+server:
+  port: 8765
+---
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ms-config-server
