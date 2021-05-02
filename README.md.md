@@ -34,6 +34,8 @@ Check Config server will return some of the configurations we have in ms-config-
 ```
 http://localhost:8888/ms-service/dev
 ```
+There are two modes to fetch the configs: either **native** or **git**
+**native** that we can change in *application.yml*
 ## Apache Kafka + Zookeeper
 To start the Kafka broker + Zookeeper, use docker-compose
 ```
@@ -67,7 +69,7 @@ mvnw spring-boot:run -pl ms-user
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDk4MDQ4OSwtNDQ2MjE0OTUzLC0xOD
+eyJoaXN0b3J5IjpbMjEyMTE3Mjk1MCwtNDQ2MjE0OTUzLC0xOD
 k1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUwNiwyMTQzOTYx
 ODk5LDE4MzMzNDc1MzldfQ==
 -->
