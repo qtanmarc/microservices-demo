@@ -48,18 +48,16 @@ To test Kafka, use the project "kafka-example" to demonstrate the publishing and
 ```
 mvnw spring-boot:run -pl kafka-example
 ```
-To Stop the Kafka broker + Zookeeper,
-```
-docker stop <container-id>
+To Stop the Kafka  the ro oer,
+``k spinr-id
 ```
 
-## User service
-
-To start the microservice "user service", run the following command in the root folder.
+## Ue 
+To start the  run the following command in the root folder.
 ```
-mvnw spring-boot:run -pl ms-user
+mvnw spring-boot:run -pl ms-
 ```
-Two public APIs are exposed:
+APIs are exposed:
 
  - http://localhost:8082/members
  - http://localhost:8082/register
@@ -72,12 +70,12 @@ mvnw spring-boot:run -pl ms-mail
 ```
 
 ## Gateway (Zuul)
-To start the gateway Zuul run the following command in the root folder. Any request to **8765:/api/user** will be now redirected to the ms-user micro-service
+To start the gateway Zuulmicroservice "mail service", run the following command in the root folder. Any request to **8765:/api/user** will be now redirected to the ms-user micro-service
 ```
-mvnw spring-boot:run -pl ms-gateway
+mvnw spring-boot:run -pl ms-gatewaymail
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMzA5ODI1LC00NDYyMTQ5NTMsLTE4OT
-U5ODE1MDEsLTE4MzkwMzY3MDQsNTU5NzYyNTA2LDIxNDM5NjE4
-OTksMTgzMzM0NzUzOV19
+eyJoaXN0b3J5IjpbOTI1MzU4NTMwLDk5MDMwOTgyNSwtNDQ2Mj
+E0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2NzA0LDU1OTc2MjUw
+NiwyMTQzOTYxODk5LDE4MzMzNDc1MzldfQ==
 -->
