@@ -77,8 +77,10 @@ To start the gateway Zuul run the following command in the root folder. Any requ
 ```
 mvnw spring-boot:run -pl ms-gateway
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDQ0NDExNSw5MjUzNTg1MzAsOTkwMz
-A5ODI1LC00NDYyMTQ5NTMsLTE4OTU5ODE1MDEsLTE4MzkwMzY3
-MDQsNTU5NzYyNTA2LDIxNDM5NjE4OTksMTgzMzM0NzUzOV19
+eyJoaXN0b3J5IjpbLTMyOTA4NTM3NSwyMTIwNDQ0MTE1LDkyNT
+M1ODUzMCw5OTAzMDk4MjUsLTQ0NjIxNDk1MywtMTg5NTk4MTUw
+MSwtMTgzOTAzNjcwNCw1NTk3NjI1MDYsMjE0Mzk2MTg5OSwxOD
+MzMzQ3NTM5XX0=
 -->
