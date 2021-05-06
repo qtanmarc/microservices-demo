@@ -1,3 +1,4 @@
+
 # Microservices-demo
 
 The demo project is to build a registration system that will send a confirmation mail after new user is registered.
@@ -48,16 +49,18 @@ To test Kafka, use the project "kafka-example" to demonstrate the publishing and
 ```
 mvnw spring-boot:run -pl kafka-example
 ```
-To Stop the Kafka  the ro oer,
-``k spinr-id
+To Stop the Kafka broker + Zookeeper,
+```
+docker stop <container-id>
 ```
 
-## Ue 
-To start the  run the following command in the root folder.
+## User service
+
+To start the microservice "user service", run the following command in the root folder.
 ```
-mvnw spring-boot:run -pl ms-
+mvnw spring-boot:run -pl ms-user
 ```
-APIs are exposed:
+Two public APIs are exposed:
 
  - http://localhost:8082/members
  - http://localhost:8082/register
@@ -70,14 +73,14 @@ mvnw spring-boot:run -pl ms-mail
 ```
 
 ## Gateway (Zuul)
-To start the gateway Zuulmicroservice "mail service", run the following command in the root folder. Any request to **8765:/api/user** will be now redirected to the ms-user micro-service
+To start the gateway Zuul run the following command in the root folder. Any request to **8765:/api/user** will be now redirected to the ms-user micro-service
 ```
-mvnw spring-boot:run -pl ms-gatewaymail
+mvnw spring-boot:run -pl ms-gateway
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1MzU4NTMwLDk5MDMwOTgyNSwtMTkxMj
-IyNzM5OSwtNDQ2MjE0OTUzLC0xODk1OTgxNTAxLC0xODM5MDM2
-NzA0LDU1OTc2MjUwNiwyMTQzOTYxODk5LC0xOTQwNTI0NTAzLD
-E4MzMzNDc1MzksOTA3NTM0NjM3LC04OTMxNzM2OTAsLTIxNzA4
-MDg3MCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMjEyMDQ0NDExNSw5MjUzNTg1MzAsOTkwMz
+A5ODI1LC0xOTEyMjI3Mzk5LC00NDYyMTQ5NTMsLTE4OTU5ODE1
+MDEsLTE4MzkwMzY3MDQsNTU5NzYyNTA2LDIxNDM5NjE4OTksLT
+E5NDA1MjQ1MDMsMTgzMzM0NzUzOSw5MDc1MzQ2MzcsLTg5MzE3
+MzY5MCwtMjE3MDgwODcwLC0zMzI0NTUzNjNdfQ==
 -->
